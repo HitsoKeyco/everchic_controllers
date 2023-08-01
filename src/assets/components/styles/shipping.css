@@ -1,0 +1,24 @@
+.cont_Shipping{
+    width: 100%;
+    height: calc(100vh - 100px );
+    background-color: #F9F9F9;
+    border-radius: 20px 0 0 0;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* styles.css */
+.shipping_column {
+    /* Estilos para la columna */
+  }
+  
+  .shipping_column_heading {
+    /* Estilos para el encabezado de la columna */
+  }
+  
+  .shipping_column_data {
+    /* Estilos para los datos de la columna */
+  }
+  
