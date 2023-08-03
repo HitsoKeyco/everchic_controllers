@@ -31,6 +31,7 @@ const CardCustomers = ({ infoApi, getOne, customerInfo }) => {
                                 <th>CIUDAD</th>
                                 <th>CANTON</th>
                                 <th>DIRECCION</th>
+                                <th>OBSERVACION</th>
                                 <th>ACCIONES</th>
                             </tr>
                         </thead>
