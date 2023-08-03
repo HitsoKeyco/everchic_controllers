@@ -1,0 +1,36 @@
+.customer_info_card {
+    background-color: white;
+    border-radius: 15px;
+    
+    max-width: 500px;
+    padding: 25px;
+    height: max-content;
+}
+
+.customers_li_card {
+    font-weight: bold;
+    color: rgb(83, 81, 81);
+    background-color: inherit;
+    list-style: none;
+    padding-top: 20px;
+    padding-left: 10px;
+    font-size: 1em;
+    font-weight: 400;
+    
+}
+
+.customer_title_card{
+    font-weight: 600;
+}
+
+.btnCopy{
+    background-color: greenyellow;
+    border-radius: 5px;
+    padding: 5px;
+    cursor: pointer;    
+}
+
+.btnCopy:hover{
+    background-color: blueviolet;
+    color: white;
+}

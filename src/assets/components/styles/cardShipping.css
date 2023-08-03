@@ -1,0 +1,12 @@
+.cont_Customers{
+    width: 100%;
+    height: calc(100vh - 100px );
+    background-color: #F9F9F9;
+    border-radius: 20px 0 0 0;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+

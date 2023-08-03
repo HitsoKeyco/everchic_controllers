@@ -1,13 +1,10 @@
 :root {
     --bgColor: rgb(255, 255, 255);
-
 }
 
 .cont_sidebar {
-    position: fixed;
-    top:0;
-    left:0;
-    width: 300px;
+    width: 100%;
+    max-width: 200px;
     height: 100vh;
     background-color: var(--bgColor);
     transition: 0.3s ease-out;
@@ -19,16 +16,18 @@
     background-color: inherit;    
     display: flex;
     align-items: center;
-    
+    padding-left: 20px;
 }
 
+
 .name_logo{
-    position: absolute;
+    
     margin-left: 90px;
     font-size: 2em;
     font-weight: 600;
     color: rgb(131, 128, 128);
 }
+
 .line{
     width: 100%;
     height: 5px;
@@ -40,10 +39,9 @@
     display: none;
 }
 
-.close_sidebar{
+.close_sidebar{    
     font-size: 1.5em;    
-    padding: 10px 10px;
-    color: rgb(131, 128, 128);
+    color: rgb(112, 108, 108);
     cursor: pointer;
     background-color: inherit;
 }
@@ -66,7 +64,7 @@
     padding-left: 15px;
 }
 
-ul, li{
+.sidebar_li{
     background-color: inherit;    
     list-style: none;
     padding-top: 20px;
@@ -75,7 +73,7 @@ ul, li{
     color: rgb(187, 180, 180);    
 }
 
-li:hover{
+.sidebar_li:hover{
     color: rgb(105, 103, 103); 
 }
 
@@ -104,7 +102,6 @@ a{
 .show_icon_sideBar{
     display: inherit;
     font-size: 1.5em;    
-    padding: 10px 10px;
     color: rgb(112, 108, 108);
     cursor: pointer;
     background-color: inherit;
@@ -155,7 +152,7 @@ a{
 @media (min-width:600px) {
     
     .name_logo{
-        position: absolute;
+        
         margin-left: 50px;
         font-size: 2em;
     }

@@ -22,14 +22,14 @@ const Sidebar = () => {
           
         </div>
         <ul className='cont_list_sidebar'>
-          <div className={`title_dashboard ${handleCloseSidebar ? 'hidden' : ''}`}><img src="/public/img_01.svg" alt="" /><p className='p_dashboard'>Dashboard</p></div>
+          <div className={`title_dashboard ${handleCloseSidebar ? 'hidden' : ''}`}><img src="/public/img_01.svg" alt="" /><p className='p_dashboard'></p></div>
           
-          <li><BsBarChartLineFill className={`links ${handleCloseSidebar ? 'resize_icon' : ''}`} /><a href="" className={`links ${handleCloseSidebar ? 'hidden' : ''}`}>Analitica</a></li>
-          <li><BsCashCoin className={`links ${handleCloseSidebar ? 'resize_icon' : ''}`}/><a href=""className={`links ${handleCloseSidebar ? 'hidden' : ''}`}>Ventas</a></li>
-          <li><BsCashStack className={`links ${handleCloseSidebar ? 'resize_icon' : ''}`}/><a href=""className={`links ${handleCloseSidebar ? 'hidden' : ''}`}>Gastos</a></li>
-          <li><BsBuildingsFill className={`links ${handleCloseSidebar ? 'resize_icon' : ''}`}/><a href=""className={`links ${handleCloseSidebar ? 'hidden' : ''}`}>Proveedores</a></li>
-          <li><BsFillCartPlusFill className={`links ${handleCloseSidebar ? 'resize_icon' : ''}`}/><a href=""className={`links ${handleCloseSidebar ? 'hidden' : ''}`}>Pedidos</a></li>
-          <li><FaShippingFast className={`links ${handleCloseSidebar ? 'resize_icon' : ''}`}/><a href=""className={`links ${handleCloseSidebar ? 'hidden' : ''}`}>Ordenes</a></li>
+          <li className='sidebar_li'><BsBarChartLineFill className={`links ${handleCloseSidebar ? 'resize_icon' : ''}`} /><a href="" className={`links ${handleCloseSidebar ? 'hidden' : ''}`}>Analitica</a></li>
+          <li className='sidebar_li'><BsCashCoin className={`links ${handleCloseSidebar ? 'resize_icon' : ''}`}/><a href=""className={`links ${handleCloseSidebar ? 'hidden' : ''}`}>Ventas</a></li>
+          <li className='sidebar_li'><BsCashStack className={`links ${handleCloseSidebar ? 'resize_icon' : ''}`}/><a href=""className={`links ${handleCloseSidebar ? 'hidden' : ''}`}>Gastos</a></li>
+          <li className='sidebar_li'><BsBuildingsFill className={`links ${handleCloseSidebar ? 'resize_icon' : ''}`}/><a href=""className={`links ${handleCloseSidebar ? 'hidden' : ''}`}>Proveedores</a></li>
+          <li className='sidebar_li'><BsFillCartPlusFill className={`links ${handleCloseSidebar ? 'resize_icon' : ''}`}/><a href=""className={`links ${handleCloseSidebar ? 'hidden' : ''}`}>Pedidos</a></li>
+          <li className='sidebar_li'><FaShippingFast className={`links ${handleCloseSidebar ? 'resize_icon' : ''}`}/><a href=""className={`links ${handleCloseSidebar ? 'hidden' : ''}`}>Ordenes</a></li>
         </ul>
 
       </div>
