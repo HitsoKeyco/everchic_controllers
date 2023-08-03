@@ -81,10 +81,10 @@ const CardCustomers = ({ infoApi, getOne, customerInfo }) => {
                                         <CopyToClipboard text={customers.address}>
                                             <td onClick={() => toast.success('Direccion copiada')} className="address_cell">{customers.address}</td>
                                         </CopyToClipboard>
-                                        <td>
-                                            <button className='card_custommer_button_delete'>Eliminar</button>
-                                            <button className='card_custommer_button_update'>Modificar</button>
-                                        </td>
+                                            <td>
+                                                <button className='card_custommer_button_delete'>Eliminar</button>
+                                                <button className='card_custommer_button_update'>Modificar</button>
+                                            </td>
                                         <Toaster
                                             position="bottom-center"
                                             reverseOrder={false}
