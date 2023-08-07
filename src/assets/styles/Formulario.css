@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;500&display=swap');
+
+* {
+    font-family: 'Open Sans', sans-serif;
+    padding: 0;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #2d9443;
+}
+
+/* Formulario.css */
+.formulario-container {
+    max-width: 500px;
+    
+    background-color: #2d9443;
+    padding: 20px;
+    color: #fff;
+    
+}
+
+h2 {
+    text-align: center;
+    padding: 10px;
+
+}
+
+.form_data {
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
+}
+
+.data_seccion {
+    width: 100%;
+    padding-top: 15px;
+
+}
+
+textarea {
+    width: 100%;
+    min-height: 50px;
+    height: max-content;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    padding-left: 10px;
+    color: green;
+    font-size: 1em;
+    
+}
+
+textarea{
+    padding-top: 20px;
+    resize: vertical;
+}
+
+input {
+    width: 100%;
+    min-height: 50px;
+    height: max-content;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    padding-left: 10px;
+    color: green;
+    font-size: 1em;
+}
+
+
+.Button {
+    width: 50%;
+    height: 50px;
+    border-radius: 10px;
+    border: none;
+    font-size: 1em;
+    background-color: rgb(62, 202, 93);
+    color: white;
+}
+
+.cont_button {
+    width: 100%;
+    padding-top: 20px;
+
+    display: flex;
+    justify-content: center;
+}
+
+.label_form {
+    position: relative;
+    top: 10px;
+    left: 10px;
+    color: green;
+    width: max-content;
+    height: max-content;
+    padding: 5px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 5px;
+
+}
+
+.data_seccion {
+    position: relative;
+}
+
+.aviso{
+    background-color: #226b31;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.logo {
+    display: flex;
+    position: relative;
+}
+
+.logo_img {
+    position: absolute;
+    right: 0;
+    top: 2cqh
+}
+
+.text_aviso{
+    font-size: 0.8em;
+}
+
+.Button:hover{
+    background-color: #1b7a12;
+    cursor: pointer;
+}
